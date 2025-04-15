@@ -13,13 +13,14 @@ const create = async (req, res) => {
 }
 
 const read = async (req, res) => {
-    const Telefones = await prisma.Telefone.findMany();
+    const Telefones = await prisma.telefone.findMany();
     res.json(Telefones);
 }
 
+
 const update = async (req, res) => {
     try {
-        const Telefone = await prisma.Telefone.update({
+        const Telefone = await prisma.telefone.update({
             data: req.body,
             where: {
                 id: Number(req.params.id)

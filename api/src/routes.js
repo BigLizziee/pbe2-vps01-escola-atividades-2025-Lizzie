@@ -10,10 +10,10 @@ routes.get('/', (req, res) => {
 });
 
 
-routes.post('/Alunos',Aluno.create);
-routes.get('/Alunos',Aluno.read);
-routes.patch('/Alunos/:id',Aluno.update);
-routes.delete('/Alunos/:id',Aluno.remove);
+routes.post('/Alunos', Aluno.create);
+routes.get('/Alunos', Aluno.read);
+routes.put('/Alunos/:id', Aluno.update);
+routes.delete('/Alunos/:id', Aluno.remove);
 
 routes.post('/Atividades',Atividade.create);
 routes.get('/Atividades',Atividade.read);

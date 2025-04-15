@@ -17,6 +17,7 @@ const read = async (req, res) => {
     res.json(Alunos);
 }
 
+
 const update = async (req, res) => {
     try {
         const Aluno = await prisma.Aluno.update({
@@ -47,6 +48,7 @@ const remove = async (req, res) => {
 module.exports = {
     create,
     read,
+    //readOne,
     update,
     remove
 }
