@@ -10,4 +10,4 @@ app.use(routes);
 
 app.listen(3001, () => {
   console.log('API executando em http://localhost:3001');
-});
+}); 
