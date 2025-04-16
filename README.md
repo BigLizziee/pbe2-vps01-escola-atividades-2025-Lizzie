@@ -52,7 +52,7 @@ npx nodemon
 # ou
 npm start
 ```
-- 6 Abra o Insomnia e importe o arquivo **./docs/insomnia.yaml** para realizar os testes.
+-  Abra o Insomnia e importe o arquivo **./docs/insomnia.yaml** para realizar os testes.
 ```bash
 git clone https://github.com/seu-usuario/projeto-escola-acme.git
 
